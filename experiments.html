@@ -48,6 +48,7 @@ d3.json("https://raw.githubusercontent.com/onzie9/all_recipes_data/master/jsonfi
     .append("title")
       .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
 });
+  
 g.selectAll('g')
             .data(root.descendants())
             .enter().append('g').attr("class", "node").append('path')
@@ -67,6 +68,20 @@ g.selectAll('g')
             .text(function(d) { return d.parent ? d.data.name : "" });
 
     });
+  
+  /**
+     * Calculate the correct distance to rotate each label based on its location in the sunburst.
+     * @param {Node} d
+     * @return {Number}
+     */
+    function computeTextRotation(d) {
+        var angle = (d.x0 + d.x1) / Math.PI * 90;
+
+        // Avoid upside-down labels
+        return (angle < 120 || angle > 270) ? angle : angle + 180;  // labels as rims
+        //return (angle < 180) ? angle - 90 : angle + 90;  // labels as spokes
+    }
+
 function click(d) {
   svg.transition()
       .duration(750)
