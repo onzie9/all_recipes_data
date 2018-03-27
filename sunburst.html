@@ -69,7 +69,7 @@ d3.select(self.frameElement).style("height", height + "px");
   I wrote a web scraper in Python that scraped 250,000+ recipes from allrecipes.com. Included in each recipe is the recipe name and the ingredients and measurements. The website bans scrapers after 10-15 rapid downloads, so the code includes an IP updater through Tor.
 
 <p>
-  On my github page, I have included the raw data in one 4 text files, and the data roughly parsed by recipe type. There are 7 types, but the type "sides" only included 62 recipes, so it likely that it is no longer an active section on the website. Of the scraped recipes, around 130,000 of the recipes were copies of one recipe for a pizza that used some kind of Johnsonville sausage. There were several other recipes that had several hundred or thousand copies of themselves. Once those are removed, there remains around 80,000 unique recipes.
+  On <a href="https://github.com/onzie9">my github page</a>, I have included the raw data in one 4 text files, and the data roughly parsed by recipe type. There are 7 types, but the type "sides" only included 62 recipes, so it likely that it is no longer an active section on the website. Of the scraped recipes, around 130,000 of the recipes were copies of one recipe for a pizza that used some kind of Johnsonville sausage. There were several other recipes that had several hundred or thousand copies of themselves. Once those are removed, there remains around 80,000 unique recipes.
   
  <p>
   The sunburst above is separated first by recipe type, then in each time, the top 20 or so ingredients used in that type of recipe are given. Mouse over each section to see what the recipe type is, or the common ingredient, depending on what layer.
