@@ -46,41 +46,9 @@ d3.json("https://raw.githubusercontent.com/onzie9/all_recipes_data/master/jsonfi
       .style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
       .on("click", click)
     .append("title")
-      .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
+      .text(function(d) { return d.data.name; });
 });
-  
-g.selectAll('g')
-            .data(root.descendants())
-            .enter().append('g').attr("class", "node").append('path')
-            .attr("display", function (d) { return d.depth ? null : "none"; })
-            .attr("d", arc)
-            .style('stroke', '#fff')
-            .style("fill", function (d) { return color((d.children ? d : d.parent).data.name); });
-
-
-        // Populate the <text> elements with our data-driven titles.
-        g.selectAll(".node")
-            .append("text")
-            .attr("transform", function(d) {
-                return "translate(" + arc.centroid(d) + ")rotate(" + computeTextRotation(d) + ")"; })
-            .attr("dx", "-20") // radius margin
-            .attr("dy", ".5em") // rotation align
-            .text(function(d) { return d.parent ? d.data.name : "" });
-
-    });
-  
-  /**
-     * Calculate the correct distance to rotate each label based on its location in the sunburst.
-     * @param {Node} d
-     * @return {Number}
-     */
-    function computeTextRotation(d) {
-        var angle = (d.x0 + d.x1) / Math.PI * 90;
-
-        // Avoid upside-down labels
-        return (angle < 120 || angle > 270) ? angle : angle + 180;  // labels as rims
-        //return (angle < 180) ? angle - 90 : angle + 90;  // labels as spokes
-    }
+ 
 
 function click(d) {
   svg.transition()
