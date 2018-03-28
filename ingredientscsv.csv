@@ -5,104 +5,104 @@ recipetype.main.salt,14792
 recipetype.main.butter,9543
 recipetype.main.water,7601
 recipetype.main.sugar,8548
-recipetype.main.all-purpose flour,6859
-recipetype.main.olive oil,6806
+recipetype.main.all-purpose-flour,6859
+recipetype.main.olive-oil,6806
 recipetype.main.eggs,6542
 recipetype.main.pepper,6455
-recipetype.main.vegetable oil,4514
+recipetype.main.vegetable-oil,4514
 recipetype.main.milk,4425
-recipetype.main.vanilla extract,3255
-recipetype.main.lemon juice,3206
+recipetype.main.vanilla-extract,3255
+recipetype.main.lemon-juice,3206
 recipetype.main.cinnamon,2797
-recipetype.main.garlic powder,2742
-recipetype.main.parmesan cheese,2418
+recipetype.main.garlic-powder,2742
+recipetype.main.parmesan-cheese,2418
 recipetype.main.garlic,2257
 recipetype.main.onion,2224
-recipetype.main.soy sauce,2166
-recipetype.main.baking powder,2155
+recipetype.main.soy-sauce,2166
+recipetype.main.baking-powder,2155
 recipetype.main.cumin,2144
-recipetype.main.corn starch,2001
-recipetype.main.baking soda,1958
+recipetype.main.corn-starch,2001
+recipetype.main.baking-soda,1958
 recipetype.Desserts,
 recipetype.Desserts.sugar,7331
-recipetype.Desserts.vanilla extract,5238
+recipetype.Desserts.vanilla-extract,5238
 recipetype.Desserts.butter,4716
 recipetype.Desserts.eggs,4687
-recipetype.Desserts.all purpose flour,4623
+recipetype.Desserts.all purpose-flour,4623
 recipetype.Desserts.salt,4105
-recipetype.Desserts.baking soda,2471
-recipetype.Desserts.brown sugar,2108
+recipetype.Desserts.baking-soda,2471
+recipetype.Desserts.brown-sugar,2108
 recipetype.Desserts.cinnamon,2087
-recipetype.Desserts.baking powder,2001
+recipetype.Desserts.baking-powder,2001
 recipetype.Desserts.milk,1891
-recipetype.Desserts.confectioners’ sugar,1330
+recipetype.Desserts.confectioners-sugar,1330
 recipetype.Desserts.water,1260
 recipetype.Desserts.walnuts,991
-recipetype.Desserts.vegetable oil,882
-recipetype.Desserts.cocoa powder,824
+recipetype.Desserts.vegetable-oil,882
+recipetype.Desserts.cocoa-powder,824
 recipetype.Desserts.nutmeg,818
 recipetype.Desserts.pecans,733
-recipetype.Desserts.chocolate chips,727
+recipetype.Desserts.chocolate-chips,727
 recipetype.Desserts.shortening,676
 recipetype.Salads,
-recipetype.Salads.olive oil,797
+recipetype.Salads.olive-oil,797
 recipetype.Salads.salt,603
 recipetype.Salads.mayonnaise,601
 recipetype.Salads.sugar,574
 recipetype.Salads.pepper,361
-recipetype.Salads.lemon juice,293
-recipetype.Salads.vegetable oil,252
+recipetype.Salads.lemon-juice,293
+recipetype.Salads.vegetable-oil,252
 recipetype.Salads.water,227
-recipetype.Salads.red wine vinegar,217
-recipetype.Salads.balsamic vinegar,178
-recipetype.Salads.dijon mustard,175
+recipetype.Salads.red-wine-vinegar,217
+recipetype.Salads.balsamic-vinegar,178
+recipetype.Salads.dijon-mustard,175
 recipetype.Salads.parsley,160
-recipetype.Salads.green onions,148
+recipetype.Salads.green-onions,148
 recipetype.Salads.honey,144
 recipetype.Salads.celery,136
 recipetype.Salads.cilantro,133
 recipetype.Salads.eggs,131
-recipetype.Salads.sour cream,128
+recipetype.Salads.sour-cream,128
 recipetype.Salads.garlic,125
 recipetype.breads,
 recipetype.breads.salt,1872
-recipetype.breads.all purpose flour,1706
+recipetype.breads.all-purpose-flour,1706
 recipetype.breads.sugar,1536
 recipetype.breads.eggs,1230
-recipetype.breads.baking powder,968
-recipetype.breads.baking soda,706
+recipetype.breads.baking-powder,968
+recipetype.breads.baking-soda,706
 recipetype.breads.butter,875
 recipetype.breads.milk,626
 recipetype.breads.cinnamon,590
-recipetype.breads.vegetable oil,539
-recipetype.breads.vanilla extract,467
+recipetype.breads.vegetable-oil,539
+recipetype.breads.vanilla-extract,467
 recipetype.breads.water,395
-recipetype.breads.whole wheat flour,267
-recipetype.breads.brown sugar,246
-recipetype.breads.warm water,239
+recipetype.breads.whole-wheat-flour,267
+recipetype.breads.brown-sugar,246
+recipetype.breads.warm-water,239
 recipetype.breads.honey,238
-recipetype.breads.active dry yeast,227
+recipetype.breads.active-dry-yeast,227
 recipetype.breads.nutmeg,203
 recipetype.breads.buttermilk,180
-recipetype.breads.olive oil,155
+recipetype.breads.olive-oil,155
 recipetype.Breakfast,
 recipetype.Breakfast.eggs,1038
 recipetype.Breakfast.salt,806
 recipetype.Breakfast.milk,757
 recipetype.Breakfast.sugar,557
-recipetype.Breakfast.all purpose flour,518
+recipetype.Breakfast.all-purpose-flour,518
 recipetype.Breakfast.cinnamon,465
 recipetype.Breakfast.butter,462
-recipetype.Breakfast.vanilla extract,446
-recipetype.Breakfast.baking powder,403
-recipetype.Breakfast.baking soda,314
-recipetype.Breakfast.vegetable oil,296
+recipetype.Breakfast.vanilla-extract,446
+recipetype.Breakfast.baking-powder,403
+recipetype.Breakfast.baking-soda,314
+recipetype.Breakfast.vegetable-oil,296
 recipetype.Breakfast.water,239
-recipetype.Breakfast.brown sugar,180
-recipetype.Breakfast.shredded cheddar,179
+recipetype.Breakfast.brown-sugar,180
+recipetype.Breakfast.shredded-cheddar,179
 recipetype.Breakfast.honey,170
 recipetype.Breakfast.nutmeg,138
-recipetype.Breakfast.olive oil,125
+recipetype.Breakfast.olive-oil,125
 recipetype.Breakfast.pepper,124
 recipetype.Drinks,
 recipetype.Drinks.ice,526
@@ -110,26 +110,22 @@ recipetype.Drinks.sugar,400
 recipetype.Drinks.vodka,193
 recipetype.Drinks.water,180
 recipetype.Drinks.milk,166
-recipetype.Drinks.vanilla extract,153
-recipetype.Drinks.orange juice,103
-recipetype.Drinks.pineapple juice,91
-recipetype.Drinks.lemon juice,75
+recipetype.Drinks.vanilla-extract,153
+recipetype.Drinks.orange-juice,103
+recipetype.Drinks.pineapple-juice,91
+recipetype.Drinks.lemon-juice,75
 recipetype.Drinks.cinnamon,75
 recipetype.Drinks.honey,70
-recipetype.Drinks.brown sugar,55
-recipetype.Drinks.boiling water,53
+recipetype.Drinks.brown-sugar,55
+recipetype.Drinks.boiling-water,53
 recipetype.Drinks.cloves,49
 recipetype.Drinks.nutmeg,49
-recipetype.Drinks.chocolate syrup,44
+recipetype.Drinks.chocolate-syrup,44
 recipetype.Drinks.cherries,43
-recipetype.Drinks.whipped cream,41
+recipetype.Drinks.whipped-cream,41
 recipetype.Sides,
 recipetype.Sides.water,9
-recipetype.Sides.shredded cheddar,6
-recipetype.Sides.I Can’t Believe it’s Not Butter!,3
-recipetype.Sides.green onions,2
-recipetype.Sides.coleslaw mix,2
- 
-
-  
-
+recipetype.Sides.shredded-cheddar,6
+recipetype.Sides.I-Can’t-Believe-it’s-Not-Butter!,3
+recipetype.Sides.green-onions,2
+recipetype.Sides.coleslaw-mix,2
