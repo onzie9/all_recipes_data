@@ -22,19 +22,21 @@ equalsigns = "======================================="
 
 for j in np.arange(0, 9997, 12):
     for i in range(241927 + j, 241927 + j + 12):  # The 241927 is just the last place I scraped.  The unique recipes
-        # were really sparse out this far.
+                                                  # were really sparse out this far.
         try:
             r = requests.get("http://allrecipes.com/recipe/" + str(i))
             soup = BeautifulSoup(r.text, "html.parser")  # First download the code for the individual recipe.
 
             mother = soup.find("ul", {"id": "lst_ingredients_1"}).parent  # This is the part of the code that stores the
-            # recipe ingredients.
+                                                                          # recipe ingredients. This is likely to change 
+                                                                          # in future versions of the website.
             children = str(mother.findAll("span", {"itemprop": "ingredients"}))
             children = re.sub(r'<.+?>', '', children)
             children = re.sub(", ([0-9])", "\n \\1", children)
 
             type = str(soup.find("a", {"data-click-id": "recipe breadcrumb 3"}))  # This is the part of the code that
-            # stores the recipe type.
+                                                                                  # stores the recipe type. This is likely
+                                                                                  # to change in future versions of the website.
             type = re.sub(r'<.+?>', '', type)
             type = type.strip()
 
